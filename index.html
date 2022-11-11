@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAVASCRIPT SLIDESHOW</title>
+  <link rel="stylesheet" href="slideshow.css">
+</head>
+
+<body>
+  <!-- Slideshow container -->
+  <div class="slideshows">
+
+    <!-- Full-width images in slides -->
+    <div class="slides fade">
+      <div class="counter">1/6</div>
+      <img src="slide1.jpeg" style="width: 100%">
+      <div class="captions">Slide One</div>
+    </div>
+
+    <div class="slides fade">
+      <div class="counter">2/6</div>
+      <img src="slide2.jpeg" style="width: 100%">
+      <div class="captions">Slide Two</div>
+    </div>
+
+    <div class="slides fade">
+      <div class="counter">3/6</div>
+      <img src="slide3.jpeg" style="width: 100%">
+      <div class="captions">Slide Three</div>
+    </div>
+
+    <div class="slides fade">
+      <div class="counter">4/6</div>
+      <img src="slide4.jpeg" style="width: 100%">
+      <div class="captions">Slide Four</div>
+    </div>
+
+    <div class="slides fade">
+      <div class="counter">5/6</div>
+      <img src="slide5.jpeg" style="width: 100%">
+      <div class="captions">Slide Five</div>
+    </div>
+
+    <div class="slides fade">
+      <div class="counter">6/6</div>
+      <img src="slide6.jpeg" style="width: 100%">
+      <div class="captions">Slide Six</div>
+    </div>
+
+    <!-- Forward and Backward Buttons -->
+    <a class="bckw" onclick="plusSlides(-1)">&#10094</a>
+    <a class="forw" onclick="plusSlides(1)">&#10095</a>
+
+  </div>
+  <br>
+
+  <!-- The slide dots indicators -->
+  <div style="text-align: center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
+  <script src="slideshow.js"></script>
+</body>
+
+</html>
