@@ -100,6 +100,11 @@ img {
   animation-duration:  1.5s;
 }
 
+.src-code-link {
+  margin-top: 50px;
+  text-align: center;
+}
+
 .btn {
   padding: 7px;
   background: rgba(255,0,0,0.7);
