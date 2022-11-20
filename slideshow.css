@@ -19,6 +19,12 @@ img {
   height: 500px
 }
 
+/* Hide Forward and Backward Buttons*/
+#navs {
+  opacity: 0;
+  transition: opacity 0.2s ease
+}
+
 /* Forward and Backward Buttons */
 .bckw, .forw {
   cursor: pointer;
