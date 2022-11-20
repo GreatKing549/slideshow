@@ -1,6 +1,16 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+//Forward and Backward buttons appear on hover
+function appearNavs() {
+  var appear = document.getElementById("navs");
+  if (appear.style.opacity == 0) {
+    appear.style.opacity = 1;
+  } else {
+    appear.style.opacity = 0;
+  }
+}
+
 //Forward and Backward controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
