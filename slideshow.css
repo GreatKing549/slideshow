@@ -16,11 +16,13 @@
 }
 
 img {
-  height: 500px
+  border-radius: 10px;
+  height: 550px
 }
 
 /* Transit opacity - Forward and Backward Buttons*/
 #navs {
+  opacity: 0;
   transition: opacity 0.4s ease
 }
 
